@@ -1,0 +1,23 @@
+.wrapper {
+  margin-bottom: 16px;
+}
+
+.label {
+  display: grid;
+  gap: 6px;
+  color: #2a3d54;
+  font-weight: 600;
+}
+
+.input {
+  border: 1px solid rgba(16, 33, 54, 0.2);
+  border-radius: 12px;
+  padding: 10px 12px;
+  outline: none;
+  transition: border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.input:focus {
+  border-color: #0f9d8a;
+  box-shadow: 0 0 0 4px rgba(15, 157, 138, 0.15);
+}
